@@ -20,6 +20,12 @@ The model is able to succesfully reconstruct the image using the decoder applica
 ## Comparision with other image compressors:
 Quality of image has been measured according to website: https://www.imgonline.com.ua/eng/determine-jpeg-quality.php
 
+### Comparision with our autoencoder model to compress images.
+Image | OriginalSize | CompressedSize | Original Compression(JPEG) | Our Model Compression(JPEG)
+|--|--|--|--|
+000001.jpg | 1kb | 332B | 75 | 95
+000002.jpg | 1kb | 332B | 75 | 95
+
 ### Comparision with famous linux application mogrify to compress images.
 Image | OriginalSize | CompressedSize | Quality
 |--|--|--|--|

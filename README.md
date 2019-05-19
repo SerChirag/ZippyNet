@@ -1,3 +1,5 @@
+
+
 # ZippyNet
 A case study about Neural Networks and Compression. 
 
@@ -43,5 +45,20 @@ Thus it works best for landscape like images. Shifting the mountain by a few pix
 
 We have trained our data on a low-dimensional dataset with high importance to relative positioning of objects.Shifting the nose by a few pixels greatly impacts the out image. Hence, our model is extremely important as it is training on a very hard dataset and still giving excellent results.
 
+<br>
+  
+**Scope of One-Model**
+
+We tried to train a similar model on a [](https://data.vision.ee.ethz.ch/cvl/DIV2K/). This data-set contained random image ranging from various people, object, buildings etc. The resulting model did not train at all.
+
+Thus, auto-encoders can be used as a compressor only for similar looking data-set, unlike other compression algorithms like JPEG and JPEG-2000.
+
+<br>
+
+**Representation of Compressed Form**
+
+Currently, the compressed data obtained from the auto-encoder is stored as a '.npy' file, which is notorious for high overheads.
+
+Thus, if we can effectively store the output of the encoder, we will be able to further compress the image.
 
 

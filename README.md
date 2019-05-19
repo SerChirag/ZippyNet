@@ -16,6 +16,7 @@ The model is able to succesfully reconstruct the image using the decoder applica
 
 ![Comparing Images](https://lh3.googleusercontent.com/kdFTpCPAi5GiafQLrUx3PluCbmaivAuG3nOlXZ67XPWBXKyGZCXhfb52dK5FifL0ovegmOnnk83Z "Compare")
 
+![Loss]({{site.baseurl}}/AutoEncoder/56/loss_56.png)
 ## Comparision with other image compressors:
 Quality of image has been measured according to website: https://www.imgonline.com.ua/eng/determine-jpeg-quality.php
 

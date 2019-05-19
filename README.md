@@ -28,11 +28,11 @@ From the comparisions it is clear that tradional compression algorithms are not 
 ### Scope
 
  1. Compression works best on high-dimensional images with little significance for relative positioning of objects within the data.
+ 
 ![enter image description here](https://thrivethemes.com/wp-content/uploads/2018/05/jpg-png-filesize-compressed.png)
 
-	Thus it works best for landscape like images. Shifting the mountain by a few pixels or changing the colour of the 		sky does not affect the image.
+Thus it works best for landscape like images. Shifting the mountain by a few pixels or changing the colour of the sky does not affect the image.
 
-	We have trained our data on a low-dimensional dataset with high importance to relative positioning of objects.
-	Shifting the nose by a few pixels greatly impacts the out image. Hence, our model is extremely important as it is training on a very hard dataset and still giving excellent results.
+We have trained our data on a low-dimensional dataset with high importance to relative positioning of objects.Shifting the nose by a few pixels greatly impacts the out image. Hence, our model is extremely important as it is training on a very hard dataset and still giving excellent results.
 
  2. List item

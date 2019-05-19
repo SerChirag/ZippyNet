@@ -22,7 +22,7 @@ Quality of image has been measured according to website: https://www.imgonline.c
 
 ### Comparision with our autoencoder model to compress images.
 Image | OriginalSize | CompressedSize | Original Compression(JPEG) | Our Model Compression(JPEG)
-|--|--|--|--|
+|--|--|--|--|--|
 000001.jpg | 1kb | 332B | 75 | 95
 000002.jpg | 1kb | 332B | 75 | 95
 
